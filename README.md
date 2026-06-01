@@ -2,6 +2,12 @@
 
 Python + Streamlit app that schedules electric bus charging along the Bengaluru–Kochi corridor.
 
+## Live app
+
+**https://bus-charging-scheduler-ubza2v3gxb44znc8jypa5s.streamlit.app/**
+
+Pick a scenario from the dropdown to view input data, per-bus timetables, and per-station charge order.
+
 ## Run locally
 
 ```bash
@@ -59,4 +65,4 @@ data/scenarios/         Five scenario files
 
 ## Deploy
 
-Push to a public GitHub repo and deploy on [Streamlit Community Cloud](https://streamlit.io/cloud). Set `app.py` as the entry point.
+Hosted on [Streamlit Community Cloud](https://streamlit.io/cloud) with `app.py` as the entry point. To redeploy after changes, push to the connected GitHub repo on `main`.
